@@ -45,3 +45,24 @@ You can also run a development server with live-reloading:
 1. Navigate to the `0x04-TypeScript/task_1` directory.
 2. Run `npm install` (if not already done).
 3. Run `npm run start-dev`. This will open your default browser and serve the application.
+
+### task_3: Ambient Modules and Type Declarations
+
+This project demonstrates how to integrate an external JavaScript library (`crud.js`) into a TypeScript project
+using an ambient declaration file (`crud.d.ts`). It defines custom types (`RowID`, `RowElement`) and
+uses them to provide type safety for the imported JavaScript functions.
+
+**How to run:**
+
+1. Navigate to the `0x04-TypeScript/task_3` directory.
+2. Run `npm install` to install all necessary dependencies.
+3. Run `npm run build` to compile the TypeScript code and generate the `dist/bundle.js` and `dist/index.html` files.
+4. Open the `dist/index.html` file in your web browser.
+5. Open your browser's developer console (F12) to see the output from the `crud` functions.
+
+**Development Server:**
+You can also run a development server with live-reloading:
+
+1. Navigate to the `0x04-TypeScript/task_3` directory.
+2. Run `npm install` (if not already done).
+3. Run `npm run start-dev`. This will open your default browser and serve the application.
