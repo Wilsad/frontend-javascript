@@ -66,3 +66,18 @@ You can also run a development server with live-reloading:
 1. Navigate to the `0x04-TypeScript/task_3` directory.
 2. Run `npm install` (if not already done).
 3. Run `npm run start-dev`. This will open your default browser and serve the application.
+
+### task_4: Namespaces, Inheritance, and Declaration Merging (TSC Build)
+
+This project explores advanced TypeScript concepts including namespaces (`Subjects`), class inheritance,
+and interface declaration merging. It defines a base `Subject` class and extends it for `Cpp`, `React`,
+and `Java` subjects, while dynamically adding experience properties to the `Teacher` interface.
+This task uses `tsc` directly for compilation, without Webpack.
+
+**How to run:**
+
+1. Navigate to the `0x04-TypeScript/task_4` directory.
+2. Run `npm install` to install all necessary dependencies.
+3. Run `npx tsc` to compile the TypeScript code into JavaScript files.
+4. Open the `index.html` file directly in your web browser.
+5. Open your browser's developer console (F12) to see the output from the subject requirements and available teachers.
